@@ -3,7 +3,7 @@ const { Given, When, Then, After } = require('@cucumber/cucumber');
 const signUp = require('../step/sign.js');
 const locators = require("../pages/locators.js")
 // const { MainLoc } = require("../Locators/MainLocator");
-const TIMEOUT = 5000;
+// const TIMEOUT = 5000;
 
 
 Given(/^Maximize browser`s window$/, async function () {
